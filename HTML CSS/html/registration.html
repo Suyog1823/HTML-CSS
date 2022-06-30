@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/registration.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+    <title>Equinox</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="image">
+            <img src="/images/3071357.jpg" alt="">
+        </div>
+        <div class="registration">
+            <div class="heading">
+                <h1>Registration</h1>
+            </div>
+            <div class="input">
+                <table class="tb-1">
+                    <tr>
+                        <td><label for="name">Name:</label></td>
+                        <td><input type="text" name="name" class="box" placeholder="Enter your name"></td>
+                        <td><label for="email">Email:</label></td>
+                        <td><input type="email" name="email" class="box" placeholder="Enter your email"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="password"> Password:</label></td>
+                        <td><input type="password" name="password" class="box" placeholder="Enter your password"></td>
+                        <td><label for="confirmedpassword">Confirm Password:</label></td>
+                        <td><input type="password" name="password" class="box" placeholder="Confirm password"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="phoneNumber">Number:</label></td>
+                        <td><input type="tel" name="phoneNumber" class="box" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                                placeholder="Enter your number" required></td>
+                        <td><label for="country">Country:</label></td>
+                        <td><input type="country" name="phoneNumber" class="box" placeholder="Enter country"></td>
+                    </tr>
+                    <tr id="gender">
+                        <td><label for="gender">Gender:</label></td>
+                        <td id="select-gender"><select name="gender" class="gender">
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                                <option value="other">other</option>
+                            </select></td>
+                        <td><label for="about">About:</label></td>
+                        <td><textarea name="about" class="big-box" placeholder="Write about yourself..."></textarea>
+                        </td>
+                    </tr>
+                </table>
+                <div class="submit">
+                    <a href="profile.html" class="submit-button"><button>Register Here</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

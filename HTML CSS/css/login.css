@@ -1,0 +1,139 @@
+body {
+    background: rgb(62, 9, 175);
+    background: linear-gradient(324deg, rgba(62, 9, 175, 1) 21%, rgba(172, 99, 255, 1) 100%);
+    background-attachment: fixed;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 4rem;
+    margin: 3rem 0 0.5rem 2rem;
+    color: rgb(68, 40, 170);
+}
+
+span {
+    font-size: 2rem;
+    font-weight: lighter;
+    color: rgb(68, 40, 170);
+}
+
+img {
+    margin: 3rem 3rem;
+    width: 25rem;
+    height: 25rem;
+}
+
+.login {
+    width: 20rem;
+}
+
+.container {
+    height: 32rem;
+    width: 50rem;
+    margin: auto;
+    margin-top: 3rem;
+    background: #fff;
+    border-radius: 30px;
+    display: flex;
+}
+
+.heading {
+    float: right;
+    margin-right: 5rem;
+}
+
+td #rememberme {
+    width: 10px;
+}
+
+td #me {
+    text-align: left;
+    width: 20px;
+}
+
+input {
+    font-family: 'Roboto', sans-serif;
+    width: 16rem;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid rgb(199, 181, 181);
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+
+input:focus {
+    border: 2px solid #555;
+}
+
+.input {
+    float: right;
+    margin-right: 3rem;
+}
+
+table {
+    float: right;
+    border-collapse: separate;
+    border-spacing: 0 10px;
+}
+
+tr,
+td {
+    width: 7rem;
+    padding: 2px;
+}
+
+#remb {
+    width: 2px;
+}
+
+#me {
+    font-size: 15px;
+
+}
+
+#accountme {
+    font-size: 15px;
+    color: black;
+}
+
+#fp {
+    font-size: 13px;
+}
+
+td #rememberme {
+    width: 13px;
+    height: 13px;
+    background-color: green;
+}
+
+.button {
+    padding: 10px;
+    width: 6rem;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 1rem;
+    margin-left: 5rem;
+    border: 2px;
+    background-color: rgb(108, 122, 206);
+    cursor: pointer;
+}
+
+.register {
+    background-color: transparent;
+    border: none;
+    color: #3E09AF;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
+.button:hover {
+    box-shadow: 5px 5px 5px lightblue;
+}

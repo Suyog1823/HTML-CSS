@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/css/login.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+  <title>Equinox</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="image">
+      <img src="/images/20944201.jpg" alt="">
+    </div>
+    <div class="login">
+      <div class="heading">
+        <h1>Hello,</h1>
+        <span>Welcome back</span><br />
+      </div>
+      <div class="input">
+        <table>
+          <tr>
+            <td colspan="3">
+              <input type="text" id="username" placeholder="Username" />
+            </td>
+          </tr>
+          <br />
+          <tr>
+            <td colspan="3">
+              <input type="password" id="password" placeholder="Password" />
+            </td>
+          </tr>
+          <br />
+          <tr>
+            <td id="remb">
+              <input id="rememberme" name="rememberme" value="remember" type="checkbox" />&nbsp;<span id="me">Remember
+                me</span>
+            </td>
+          </tr>
+          <tr>
+            <td id="fp">
+              <span id="accountme">Don't have an account?</span>
+              <a href="/html/registration.html"><button class="register">Register</button></a>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <button type="button" class="button" onclick="myFunction()">Login</button>
+    </div>
+  </div>
+  <script src="/js/login.js"></script>
+</body>
+
+</html>

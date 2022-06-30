@@ -1,0 +1,142 @@
+body {
+    background: rgb(62, 9, 175);
+    background: linear-gradient(324deg, rgba(62, 9, 175, 1) 21%, rgba(172, 99, 255, 1) 100%);
+    background-attachment: fixed;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-top: 2rem;
+    color: rgb(62, 9, 175);
+}
+
+.container {
+    margin: auto;
+    width: 64%;
+    margin-top: 3rem;
+    background: #fff;
+    border-radius: 30px;
+    display: flex;
+}
+
+.heading {
+    float: right;
+    margin-right: 5rem;
+}
+
+.image {
+    width: 20rem;
+    height: 30rem;
+}
+
+.registration {
+    width: 30rem;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    float: right;
+    width: 32rem;
+}
+
+table {
+    float: right;
+    height: 15rem;
+    border-collapse: separate;
+    border-spacing: 0 10px;
+}
+
+tr,
+td {
+    width: 2rem;
+    /* text-align: center; */
+    padding: 0.3rem;
+}
+
+#gender td {
+    padding: 0;
+}
+
+.submit {
+    margin: 1rem;
+}
+
+img {
+    margin-top: 6rem;
+    height: 71%;
+    width: 87%;
+}
+
+input {
+    font-family: 'Roboto', sans-serif;
+    width: 12rem;
+    padding: 10px 15px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 9px;
+    border: 1px solid rgb(66, 65, 65);
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+select {
+    font-family: 'Roboto', sans-serif;
+    width: 8rem;
+    padding: 8px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 9px;
+    border: 1px solid rgb(66, 65, 65);
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+textarea {
+    font-family: 'Roboto', sans-serif;
+    width: 10rem;
+    padding: 8px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 0.3rem;
+    border: 1px solid rgb(66, 65, 65);
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+textarea:focus {
+    border: 2px solid #555;
+}
+
+input:focus {
+    border: 2px solid #555;
+}
+
+select:focus {
+    border: 2px solid #555;
+}
+
+.submit {
+    margin: 0;
+}
+
+button {
+    margin-left: 17rem;
+    color: #ffffff;
+    border-radius: 12px;
+    padding: 13px;
+    font-size: 15px;
+    font-weight: 600;
+    border: 2px;
+    background-color: rgb(108, 122, 206);
+}
+
+button:hover {
+    box-shadow: 5px 5px 5px lightblue;
+}
